@@ -9,5 +9,5 @@ for row in range(size):#this loop will executed with tha var row and he range of
         if(row + col )% 2 == 0: #if the row + col is even then , it will executed
             print('\u25A0',end=' ') #end isused to
         else : #otherwise it will executed
-            print('B',end = ' ')
+            print('\u25A1',end = ' ')
     print()
