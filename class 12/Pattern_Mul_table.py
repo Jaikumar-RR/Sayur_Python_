@@ -17,6 +17,7 @@ start = int(input("Enter the start number : "))
 end = int (input("enter the end Number : "))
 if (end < start):
     print("!!Enter end value higher than start!!")
+    
     exit()
 size = end - start + 1 #set size is end - start + 1
 print("  ",end = "") #print the whitespace abd continue the line

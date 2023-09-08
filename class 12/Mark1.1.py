@@ -12,5 +12,6 @@ for student in range(Students): #by using for loop to get student name
     marks = [] #set an empty list
     for subject in range(Subjects):#on this loop we gets marks
         mark = int(input(f"enter Marks for Subject {subject+1} : "))
-        marks.append(mark)        #append() is used to append the value on list
+        marks.append(mark)#append() is used to append the value on list
+    
     print(f"{student_name}'s,Marks for Subject are :",marks)    #print the marks

@@ -16,6 +16,7 @@ for student in range(Students):#by using for loop to get student name and mark
     for subject in range(Subjects): #on inner for loop to gets mark from user
         mark = int(input(f"enter Marks for Subject {subject+1} : "))
         marks.append(mark)    #append() is used to append the value on list
+        
     print("Marks for ",student_name)
     for mark_lst in range(len(marks)):#in this loop to print the mark list 
         print(f"Mark {mark_lst + 1} for Subject {mark_lst +1}are :",marks[mark_lst])    

@@ -10,4 +10,6 @@ for row in range(size):#this loop will executed with tha var row and he range of
             print('\u25A0',end=' ') #end isused to
         else : #otherwise it will executed
             print('\u25A1',end = ' ')
-    print()
+            
+    print() 
+    

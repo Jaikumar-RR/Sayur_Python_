@@ -8,4 +8,5 @@ for multiplicand in range(Multiplicands_range[0],Multiplicands_range[1]+1): #By 
     print(f"Table {multiplicand}")
     for multiplier in range(1,table_range+1): #By using inner loop to calculate the multiplicand * multiplier
         print(f"{multiplicand} * {multiplier} : {multiplicand*multiplier}")
+    
     print(f"{'-'*15}") #lastly just print line
