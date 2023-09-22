@@ -1,0 +1,52 @@
+Problem 3:
+No need to write a program. Just pseudocode is enough
+
+Define a class for a instagram post. Define the properties and functions.
+Define which one will be private and which one public.
+
+
+Class InstagramPost:
+    // Public Properties
+    public title, image_url, caption, likes, comments
+
+    // Private Properties
+    private post_id, user_id, timestamp
+
+    // Constructor
+    function InstagramPost(title, image_url, caption, user_id):
+        this.title = title
+        this.image_url = image_url
+        this.caption = caption
+        this.likes = 0
+        this.comments = []
+        this.post_id = generate_unique_post_id()
+        this.user_id = user_id
+        this.timestamp = get_current_timestamp()
+
+    // Public Methods
+    function like():
+        this.likes = this.likes + 1
+
+    function add_comment(comment):
+        this.comments.append(comment)
+
+    function get_post_info():
+        return {
+            "Post ID": this.post_id,
+            "User ID": this.user_id,
+            "Title": this.title,
+            "Image URL": this.image_url,
+            "Caption": this.caption,
+            "Likes": this.likes,
+            "Comments": this.comments,
+            "Timestamp": this.timestamp
+        }
+
+    // Private Methods
+    function generate_unique_post_id():
+        // Implementation to generate a unique post ID (not shown)
+
+    function get_current_timestamp():
+        // Implementation to get the current timestamp (not shown)
+
+End Class
