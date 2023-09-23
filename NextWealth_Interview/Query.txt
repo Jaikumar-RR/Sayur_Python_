@@ -13,13 +13,49 @@ Print the avg age of the students in this table
 
 Query :
 
-
+1.Print the list of name from  MAA
 
 SELECT name FROM student WHERE city = 'MAA';
 
+OUTPUT :
+name
+
+Aravind
+ragul
+______________________________________________________________________
+
+2.Count the no of people from TRI
 
 SELECT COUNT(*) AS count_tri FROM student WHERE city = 'TRI';
 
+OUTPUT :
+count_tri
+
+1
+
+__________________________________________________________________________
+
+3.Count the no of people in each city
+
 SELECT city, COUNT(*) AS count_per_city FROM student GROUP BY city;
 
+OUTPUT :
+
+city | count_per_city
+     |
+MAA  | 2
+MDU  | 1
+TRI  | 1
+
+_____________________________________________________________________________
+
+4.Print the avg age of the students in this table
+
 SELECT AVG(age) AS avg_age FROM student;
+
+OUTPUT :
+
+avg_age
+
+20.0
+_________________________________________________________________________________

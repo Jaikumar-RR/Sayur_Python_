@@ -39,3 +39,14 @@ sentence = input("Enter the sentence: ")
 # Encode the sentence using the key and print the result
 result = encode_sentence(sentence, key)
 print("The encoded sentence is:", result)
+
+#________________________________________________________________________________
+
+
+#   OUTPUT  :
+
+# Enter the key: 2
+# Enter the sentence: I am the King
+# The encoded sentence is: K oc vjg ipkM
+
+#__________________________________
